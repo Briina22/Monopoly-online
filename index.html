@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Monopoly</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="inicio">
+    <!-- Imagen del título -->
+    <img src="logo.png" alt="Monopoly" id="logo">
+
+    <h1>Monopoly</h1>
+
+    <!-- Nombre del jugador -->
+    <input type="text" id="nombre" placeholder="Tu nombre">
+
+    <!-- Selección de peón -->
+    <h3>Elegí tu peón</h3>
+    <div id="peones">
+      <button class="peon">🚗</button>
+      <button class="peon">🐶</button>
+      <button class="peon">🎩</button>
+      <button class="peon">🛳️</button>
+      <button class="peon">🐎</button>
+      <button class="peon">🪙</button>
+    </div>
+
+    <!-- Botón unirse -->
+    <button id="unirse">Unirse a la partida</button>
+
+    <!-- Contador -->
+    <p id="contador">Jugadores: 0 / 6</p>
+
+    <!-- Botón iniciar -->
+    <button id="iniciar" disabled>Iniciar partida</button>
+
+    <!-- Estado -->
+    <p id="estado"></p>
+
+    <!-- Lista de jugadores -->
+    <ul id="lista-jugadores"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
